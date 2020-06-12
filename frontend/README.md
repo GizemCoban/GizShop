@@ -1,68 +1,113 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT SHIELDS -->
+[![Build Status][build-shield]]()
+[![Contributors][contributors-shield]]()
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+![Twitter][twitter-shield]
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/GizemCoban/GizShop">
+    <h3 align="center">GizShop</h3>
+  </a>
 
-### `npm start`
+  
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <p align="center">
+    Fırat Üniversitesi Yazılım Mühendisliği Bölümü  Bitirme Projesi kapsamında React.js ve Node.js kullanılarak hazırlanan e-ticaret ve chat bot projesidir.
+    <br />
+    ·
+    <a href="https://github.com/GizemCoban/GizShop/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/GizemCoban/GizShop/issues">Request Feature</a>
+  </p>
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- TABLE OF CONTENTS -->
+## İçerik
 
-### `npm run build`
+* [Proje Hakkında](#proje-hakkında)
+  * [Kullanılan Paketler](#kullanılan-paketler)
+* [Başlangıç](#başlangıç)
+  * [Gereksinimler](#gereksinimler)
+  * [Kurulum](#kurulum):D
+* [İletişim](#iletişim)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- ABOUT THE PROJECT -->
+## Proje Hakkında
 
-### `npm run eject`
+[![Product Name Screen Shot][product-screenshot-1]](https://github.com/GizemCoban/GizShop/tree/master/screenshots)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Geliştirilen projenin amacı, güneş gözlüğü satın almak isteyen kullanıcıların web üzerinden kolayca gözlüklerini seçip satın almasını hedeflemiştir. Ayrıca teknolojinin gelişmesiyle e-ticaretinde gelişmiş olduğu bu dönemlerde müşteri memnuniyetini sağlayabilmek adına chat bot kullanılmıştır. Chat bot ile kullanıcılara istedikleri ürünlere daha hızlı erişim sağlanabilmesi hedeflenmiştir.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Projenin NodeJS ile yazılan ve MongoDB altyapısını kullanarak hazırlanan backend sunucusunun kodlarına ulamak için [Backend](https://github.com/GizemCoban/GizShop/tree/master/backend) gidiniz.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Projenin ReactJS ve Redux ile yazılan frontend arayüzünün kodlarına ulamak için [Frontend](https://github.com/GizemCoban/GizShop/tree/master/frontend) gidiniz.
+### Kullanılan Paketler
+Uygulama geliştirme sırasında aşağıdaki paketlerden yararlanılmıştır.
+* [React](https://github.com/facebook/react)
+* [NodeJS](https://nodejs.org/en/)
+* [MongoDB](https://www.mongodb.com/)
+* [React Redux](https://github.com/reduxjs/react-redux)
+* [Ant Design](https://ant.design/)
+* [Semantic UI](https://react.semantic-ui.com/)
+* [Axios](https://github.com/axios/axios)
+* [React Simple Chatbot](https://lucasbassetti.com.br/react-simple-chatbot/)
+* [React Router](https://www.npmjs.com/package/react-router-dom)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+<!-- GETTING STARTED -->
+## Başlangıç
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Projeyi kendi bilgisayarınıza kurmak için aşağıdaki adımları takip edebilirsiniz.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Gereksinimler
 
-### Code Splitting
+Projeyi çalıştırabilmek için aşağıdaki paketleri yüklemeniz gerekmekte
+* npm
+```sh
+npm install npm@latest -g
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### Kurulum
 
-### Analyzing the Bundle Size
+1. Github reposunu klonlayın
+```sh
+git clone https://github.com/GizemCoban/GizShop
+```
+2. NPM paketlerini kurun
+```sh
+npm install
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+<!-- CONTACT -->
+## Iletişim
 
-### Advanced Configuration
+Gizem ÇOBAN - [@Gizemm_Cobann](https://twitter.com/Gizemm_Cobann) - gizem.coban58@gmail.com
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Proje Linki: [https://github.com/GizemCoban/GizShop](https://github.com/GizemCoban/GizShop)
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
+[license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
+[license-url]: https://choosealicense.com/licenses/mit
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/gizemmcobann/
+[product-screenshot-1]:https://raw.githubusercontent.com/GizemCoban/GizShop/master/screenshots/1.png
+[twitter-shield]: https://img.shields.io/twitter/follow/Gizemm_Cobann?label=Twitter&style=social
