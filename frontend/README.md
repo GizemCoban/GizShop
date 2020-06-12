@@ -34,7 +34,7 @@
   * [Kullanılan Paketler](#kullanılan-paketler)
 * [Başlangıç](#başlangıç)
   * [Gereksinimler](#gereksinimler)
-  * [Kurulum](#kurulum):D
+  * [Kurulum](#kurulum)
 * [İletişim](#iletişim)
 
 
